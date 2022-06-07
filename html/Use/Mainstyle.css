@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 1px solid #333;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+header>h1>#main_img{
+    max-height: 50px;
+    max-width: 50px;
+    object-fit: cover;
+}
+
+body {
+    background-color: #333;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 1.2rem 0;
+}
+
+header>h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    
+}
+
+header>ul {
+    display: flex;
+}
+
+header>ul>li {
+    list-style-type: none;
+    margin-left: 1.5rem;
+ 
+}
+
+header>ul>li>a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding-bottom: 5px;
+    color: grey;
+}
+
+header>ul>li:nth-child(4)>a{
+    color: rgb(255, 142, 36);
+    border-bottom: 5px solid rgb(255, 142, 36);
+}
+
+header>ul>li>a:hover{
+    border-bottom: 5px solid gray;
+}
+
+@media screen and (max-width:600px){
+    header{
+        flex-direction: column;
+    }
+}
+
+
+section {
+    padding: 0 3rem;
+    text-align: center;
+}
+
+section>p {
+    margin-bottom: 2rem;
+}
+
+section>p:first-child {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+section>#U_1{
+    border: 3px solid rgb(75, 75, 75);
+    padding: 10px;
+    background-color: grey;
+    max-height: 500px;
+    max-width: 500px;
+    object-fit: cover;
+}
+section>#U_2{
+    border: 3px solid rgb(75, 75, 75);
+    padding: 10px;
+    background-color: grey;
+    max-height: 500px;
+    max-width: 500px;
+    object-fit: cover;
+}
+
+
+
+section>a {
+    display: block;
+    border: 1px solid black;
+    width: 150px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: white;
+
+}
+section>a:link{
+    color: rgb(59, 144, 255);
+} 
+section>a:visited{
+    color:rgb(255, 142, 36);
+}
+section>a:hover{
+    color: rgb(126, 64, 126);
+}
+section>a:active{
+    color:rgb(255, 51, 0)
+}
+
+
+footer {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    color: grey;
+}
+footer>a {
+    text-decoration: none;
+    color: white;
+}
+
+
